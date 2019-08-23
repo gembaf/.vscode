@@ -1,0 +1,71 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.wrappingIndent": "none",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "stylelint.enable": true,
+  "files.trimTrailingWhitespace": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "typescript.format.enable": false,
+  "tslint.autoFixOnSave": true,
+  "files.exclude": {
+    "node_modules/": true,
+    "**/._*": true,
+  },
+  "workbench.editor.enablePreview": false,
+  "vim.useSystemClipboard": true,
+  "vim.incsearch": true,
+  "vim.whichwrap": "h,l,<,>,[,]",
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
+  "terminal.integrated.rendererType": "dom",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+}
